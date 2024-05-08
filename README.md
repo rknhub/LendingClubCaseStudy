@@ -1,4 +1,4 @@
-# Project Name
+# Lending Club Case Study
 > Outline a brief description of your project.
 
 
@@ -11,38 +11,41 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- In the consumer finance industry, making accurate loan approval decisions is crucial. For a company that specializes in lending various types of loans to urban customers, two main risks are associated:
+
+Loss of Business: If a loan is not approved for an applicant who would have repaid it, the company misses out on business.
+Financial Loss: If a loan is approved for an applicant who defaults, the company incurs financial losses.
+The challenge is to predict whether an applicant is likely to repay the loan or default, thus aiding in making informed loan approval decisions.
+The aim of this project is to identify patterns and predictors that indicate the likelihood of an applicant defaulting on a loan. Insights derived from this analysis will help in making decisions such as:
+
+Denying the loan to high-risk applicants, Reducing the loan amount, Adjusting interest rates for riskier loans.
+
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The models successfully identified key predictors of default such as debt-to-income ratio, credit utilization, and past delinquency records.
+Comparative analysis of various models highlighted the trade-offs between model complexity and predictive accuracy.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- matlabplot
+- seaborn
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
+- Thank you for all the tutors from Upgrad
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by @rknhub - feel free to contact me!
 
 
 <!-- Optional -->
